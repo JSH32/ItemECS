@@ -1,0 +1,11 @@
+name: ItemECS
+version: '${version}'
+main: com.github.jsh32.itemecs.ItemECS
+api-version: 1.18
+load: STARTUP
+authors: [ JSH32 ]
+depend: [ NBTAPI ]
+description: An extensible entity component system for items.
+commands:
+  test:
+    description: Test
